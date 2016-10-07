@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62A681D1D05763800FFDDB6 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A681C1D05763800FFDDB6 /* FifthViewController.swift */; };
+		A62A681F1D05764A00FFDDB6 /* FifthQuartz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A681E1D05764A00FFDDB6 /* FifthQuartz.swift */; };
+		A62D35BE1BB10DDE001DE433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D35BD1BB10DDE001DE433 /* main.m */; };
+		A62D35C11BB10DDE001DE433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D35C01BB10DDE001DE433 /* AppDelegate.m */; };
+		A62D35C31BB10DDE001DE433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62D35C21BB10DDE001DE433 /* Assets.xcassets */; };
+		A62D35C61BB10DDE001DE433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62D35C41BB10DDE001DE433 /* LaunchScreen.storyboard */; };
+		A62D35D11BB10DDE001DE433 /* LTQuartzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D35D01BB10DDE001DE433 /* LTQuartzTests.m */; };
+		A62D35DC1BB10DDE001DE433 /* LTQuartzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D35DB1BB10DDE001DE433 /* LTQuartzUITests.m */; };
+		A62D35F21BB10E76001DE433 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D35F01BB10E76001DE433 /* RootViewController.m */; };
+		A62D35F31BB10E76001DE433 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62D35F11BB10E76001DE433 /* RootViewController.xib */; };
+		A65B05091BBA8F1000C204E9 /* FirstQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B05061BBA8F1000C204E9 /* FirstQuartzView.m */; };
+		A65B050A1BBA8F1000C204E9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B05081BBA8F1000C204E9 /* FirstViewController.m */; };
+		A65B050E1BBA8F2D00C204E9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B050D1BBA8F2D00C204E9 /* SecondViewController.m */; };
+		A65B05111BBA8F5F00C204E9 /* SecondQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B05101BBA8F5F00C204E9 /* SecondQuartzView.m */; };
+		A669AAC61D080DF40081443B /* DetailCircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669AAC51D080DF40081443B /* DetailCircleProgressView.swift */; };
+		A6801BE01D6C25C00012D4A9 /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6801BDF1D6C25C00012D4A9 /* SevenViewController.m */; };
+		A6801BE31D6C26250012D4A9 /* SevenView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6801BE21D6C26250012D4A9 /* SevenView.m */; };
+		A6AB48431BC660EC00223532 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AB48421BC660EC00223532 /* FourthViewController.m */; };
+		A6AB48461BC6613900223532 /* FourthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AB48451BC6613900223532 /* FourthView.m */; };
+		A6BE8FD81D4614B100F15AB3 /* SixthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE8FD71D4614B100F15AB3 /* SixthView.m */; };
+		A6BE8FDB1D4614BD00F15AB3 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE8FDA1D4614BD00F15AB3 /* SixthViewController.m */; };
+		A6C4B8E21D791B3A0058A210 /* ChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4B8E11D791B3A0058A210 /* ChartData.m */; };
+		A6D9151A1BBB77E400361D79 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D915191BBB77E400361D79 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A62D35CD1BB10DDE001DE433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62D35B11BB10DDE001DE433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62D35B81BB10DDE001DE433;
+			remoteInfo = LTQuartz;
+		};
+		A62D35D81BB10DDE001DE433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62D35B11BB10DDE001DE433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62D35B81BB10DDE001DE433;
+			remoteInfo = LTQuartz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A62A681B1D05763800FFDDB6 /* LTQuartz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTQuartz-Bridging-Header.h"; sourceTree = "<group>"; };
+		A62A681C1D05763800FFDDB6 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		A62A681E1D05764A00FFDDB6 /* FifthQuartz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthQuartz.swift; sourceTree = "<group>"; };
+		A62D35B91BB10DDE001DE433 /* LTQuartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTQuartz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62D35BD1BB10DDE001DE433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A62D35BF1BB10DDE001DE433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A62D35C01BB10DDE001DE433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A62D35C21BB10DDE001DE433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62D35C51BB10DDE001DE433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A62D35C71BB10DDE001DE433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62D35CC1BB10DDE001DE433 /* LTQuartzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTQuartzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62D35D01BB10DDE001DE433 /* LTQuartzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTQuartzTests.m; sourceTree = "<group>"; };
+		A62D35D21BB10DDE001DE433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62D35D71BB10DDE001DE433 /* LTQuartzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTQuartzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62D35DB1BB10DDE001DE433 /* LTQuartzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTQuartzUITests.m; sourceTree = "<group>"; };
+		A62D35DD1BB10DDE001DE433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62D35EF1BB10E76001DE433 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A62D35F01BB10E76001DE433 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A62D35F11BB10E76001DE433 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A65B05051BBA8F1000C204E9 /* FirstQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstQuartzView.h; sourceTree = "<group>"; };
+		A65B05061BBA8F1000C204E9 /* FirstQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstQuartzView.m; sourceTree = "<group>"; };
+		A65B05071BBA8F1000C204E9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A65B05081BBA8F1000C204E9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A65B050C1BBA8F2D00C204E9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A65B050D1BBA8F2D00C204E9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A65B050F1BBA8F5F00C204E9 /* SecondQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondQuartzView.h; sourceTree = "<group>"; };
+		A65B05101BBA8F5F00C204E9 /* SecondQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondQuartzView.m; sourceTree = "<group>"; };
+		A669AAC51D080DF40081443B /* DetailCircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCircleProgressView.swift; sourceTree = "<group>"; };
+		A6801BDE1D6C25C00012D4A9 /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		A6801BDF1D6C25C00012D4A9 /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		A6801BE11D6C26250012D4A9 /* SevenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenView.h; sourceTree = "<group>"; };
+		A6801BE21D6C26250012D4A9 /* SevenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenView.m; sourceTree = "<group>"; };
+		A6AB48411BC660EC00223532 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A6AB48421BC660EC00223532 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A6AB48441BC6613900223532 /* FourthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthView.h; sourceTree = "<group>"; };
+		A6AB48451BC6613900223532 /* FourthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthView.m; sourceTree = "<group>"; };
+		A6BE8FD61D4614B100F15AB3 /* SixthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthView.h; sourceTree = "<group>"; };
+		A6BE8FD71D4614B100F15AB3 /* SixthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthView.m; sourceTree = "<group>"; };
+		A6BE8FD91D4614BD00F15AB3 /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		A6BE8FDA1D4614BD00F15AB3 /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		A6C4B8E01D791B3A0058A210 /* ChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartData.h; sourceTree = "<group>"; };
+		A6C4B8E11D791B3A0058A210 /* ChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartData.m; sourceTree = "<group>"; };
+		A6D915181BBB77E400361D79 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A6D915191BBB77E400361D79 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62D35B61BB10DDE001DE433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35C91BB10DDE001DE433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35D41BB10DDE001DE433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62A681A1D05762200FFDDB6 /* Fifth */ = {
+			isa = PBXGroup;
+			children = (
+				A62A681E1D05764A00FFDDB6 /* FifthQuartz.swift */,
+				A62A681C1D05763800FFDDB6 /* FifthViewController.swift */,
+				A62A681B1D05763800FFDDB6 /* LTQuartz-Bridging-Header.h */,
+			);
+			path = Fifth;
+			sourceTree = "<group>";
+		};
+		A62D35B01BB10DDE001DE433 = {
+			isa = PBXGroup;
+			children = (
+				A62D35BB1BB10DDE001DE433 /* LTQuartz */,
+				A62D35CF1BB10DDE001DE433 /* LTQuartzTests */,
+				A62D35DA1BB10DDE001DE433 /* LTQuartzUITests */,
+				A62D35BA1BB10DDE001DE433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62D35BA1BB10DDE001DE433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62D35B91BB10DDE001DE433 /* LTQuartz.app */,
+				A62D35CC1BB10DDE001DE433 /* LTQuartzTests.xctest */,
+				A62D35D71BB10DDE001DE433 /* LTQuartzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62D35BB1BB10DDE001DE433 /* LTQuartz */ = {
+			isa = PBXGroup;
+			children = (
+				A62D35EE1BB10E76001DE433 /* Controller */,
+				A62D35BF1BB10DDE001DE433 /* AppDelegate.h */,
+				A62D35C01BB10DDE001DE433 /* AppDelegate.m */,
+				A62D35C21BB10DDE001DE433 /* Assets.xcassets */,
+				A62D35C41BB10DDE001DE433 /* LaunchScreen.storyboard */,
+				A62D35C71BB10DDE001DE433 /* Info.plist */,
+				A62D35BC1BB10DDE001DE433 /* Supporting Files */,
+			);
+			path = LTQuartz;
+			sourceTree = "<group>";
+		};
+		A62D35BC1BB10DDE001DE433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62D35BD1BB10DDE001DE433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A62D35CF1BB10DDE001DE433 /* LTQuartzTests */ = {
+			isa = PBXGroup;
+			children = (
+				A62D35D01BB10DDE001DE433 /* LTQuartzTests.m */,
+				A62D35D21BB10DDE001DE433 /* Info.plist */,
+			);
+			path = LTQuartzTests;
+			sourceTree = "<group>";
+		};
+		A62D35DA1BB10DDE001DE433 /* LTQuartzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A62D35DB1BB10DDE001DE433 /* LTQuartzUITests.m */,
+				A62D35DD1BB10DDE001DE433 /* Info.plist */,
+			);
+			path = LTQuartzUITests;
+			sourceTree = "<group>";
+		};
+		A62D35EE1BB10E76001DE433 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A65B05041BBA8F1000C204E9 /* First */,
+				A65B050B1BBA8F1800C204E9 /* Second */,
+				A6D915171BBB772200361D79 /* Third */,
+				A6AB48401BC660CA00223532 /* Fourth */,
+				A62A681A1D05762200FFDDB6 /* Fifth */,
+				A6BE8FD21D46148900F15AB3 /* Sixth */,
+				A6801BDD1D6C25820012D4A9 /* Seven */,
+				A62D35EF1BB10E76001DE433 /* RootViewController.h */,
+				A62D35F01BB10E76001DE433 /* RootViewController.m */,
+				A62D35F11BB10E76001DE433 /* RootViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A65B05041BBA8F1000C204E9 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				A65B05051BBA8F1000C204E9 /* FirstQuartzView.h */,
+				A65B05061BBA8F1000C204E9 /* FirstQuartzView.m */,
+				A65B05071BBA8F1000C204E9 /* FirstViewController.h */,
+				A65B05081BBA8F1000C204E9 /* FirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		A65B050B1BBA8F1800C204E9 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				A65B050F1BBA8F5F00C204E9 /* SecondQuartzView.h */,
+				A65B05101BBA8F5F00C204E9 /* SecondQuartzView.m */,
+				A65B050C1BBA8F2D00C204E9 /* SecondViewController.h */,
+				A65B050D1BBA8F2D00C204E9 /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		A6801BDD1D6C25820012D4A9 /* Seven */ = {
+			isa = PBXGroup;
+			children = (
+				A6801BE11D6C26250012D4A9 /* SevenView.h */,
+				A6801BE21D6C26250012D4A9 /* SevenView.m */,
+				A6801BDE1D6C25C00012D4A9 /* SevenViewController.h */,
+				A6801BDF1D6C25C00012D4A9 /* SevenViewController.m */,
+			);
+			path = Seven;
+			sourceTree = "<group>";
+		};
+		A6AB48401BC660CA00223532 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				A6AB48411BC660EC00223532 /* FourthViewController.h */,
+				A6AB48421BC660EC00223532 /* FourthViewController.m */,
+				A669AAC51D080DF40081443B /* DetailCircleProgressView.swift */,
+				A6AB48441BC6613900223532 /* FourthView.h */,
+				A6AB48451BC6613900223532 /* FourthView.m */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		A6BE8FD21D46148900F15AB3 /* Sixth */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4B8E01D791B3A0058A210 /* ChartData.h */,
+				A6C4B8E11D791B3A0058A210 /* ChartData.m */,
+				A6BE8FD61D4614B100F15AB3 /* SixthView.h */,
+				A6BE8FD71D4614B100F15AB3 /* SixthView.m */,
+				A6BE8FD91D4614BD00F15AB3 /* SixthViewController.h */,
+				A6BE8FDA1D4614BD00F15AB3 /* SixthViewController.m */,
+			);
+			path = Sixth;
+			sourceTree = "<group>";
+		};
+		A6D915171BBB772200361D79 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				A6D915181BBB77E400361D79 /* ThirdViewController.h */,
+				A6D915191BBB77E400361D79 /* ThirdViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62D35B81BB10DDE001DE433 /* LTQuartz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62D35E01BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartz" */;
+			buildPhases = (
+				A62D35B51BB10DDE001DE433 /* Sources */,
+				A62D35B61BB10DDE001DE433 /* Frameworks */,
+				A62D35B71BB10DDE001DE433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTQuartz;
+			productName = LTQuartz;
+			productReference = A62D35B91BB10DDE001DE433 /* LTQuartz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A62D35CB1BB10DDE001DE433 /* LTQuartzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62D35E31BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartzTests" */;
+			buildPhases = (
+				A62D35C81BB10DDE001DE433 /* Sources */,
+				A62D35C91BB10DDE001DE433 /* Frameworks */,
+				A62D35CA1BB10DDE001DE433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62D35CE1BB10DDE001DE433 /* PBXTargetDependency */,
+			);
+			name = LTQuartzTests;
+			productName = LTQuartzTests;
+			productReference = A62D35CC1BB10DDE001DE433 /* LTQuartzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A62D35D61BB10DDE001DE433 /* LTQuartzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62D35E61BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartzUITests" */;
+			buildPhases = (
+				A62D35D31BB10DDE001DE433 /* Sources */,
+				A62D35D41BB10DDE001DE433 /* Frameworks */,
+				A62D35D51BB10DDE001DE433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62D35D91BB10DDE001DE433 /* PBXTargetDependency */,
+			);
+			name = LTQuartzUITests;
+			productName = LTQuartzUITests;
+			productReference = A62D35D71BB10DDE001DE433 /* LTQuartzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62D35B11BB10DDE001DE433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LaoTao;
+				TargetAttributes = {
+					A62D35B81BB10DDE001DE433 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9KBX3YC8RP;
+					};
+					A62D35CB1BB10DDE001DE433 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A62D35B81BB10DDE001DE433;
+					};
+					A62D35D61BB10DDE001DE433 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A62D35B81BB10DDE001DE433;
+					};
+				};
+			};
+			buildConfigurationList = A62D35B41BB10DDE001DE433 /* Build configuration list for PBXProject "LTQuartz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A62D35B01BB10DDE001DE433;
+			productRefGroup = A62D35BA1BB10DDE001DE433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62D35B81BB10DDE001DE433 /* LTQuartz */,
+				A62D35CB1BB10DDE001DE433 /* LTQuartzTests */,
+				A62D35D61BB10DDE001DE433 /* LTQuartzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62D35B71BB10DDE001DE433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62D35C31BB10DDE001DE433 /* Assets.xcassets in Resources */,
+				A62D35C61BB10DDE001DE433 /* LaunchScreen.storyboard in Resources */,
+				A62D35F31BB10E76001DE433 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35CA1BB10DDE001DE433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35D51BB10DDE001DE433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62D35B51BB10DDE001DE433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6801BE01D6C25C00012D4A9 /* SevenViewController.m in Sources */,
+				A62A681F1D05764A00FFDDB6 /* FifthQuartz.swift in Sources */,
+				A6C4B8E21D791B3A0058A210 /* ChartData.m in Sources */,
+				A6BE8FD81D4614B100F15AB3 /* SixthView.m in Sources */,
+				A65B050E1BBA8F2D00C204E9 /* SecondViewController.m in Sources */,
+				A62D35C11BB10DDE001DE433 /* AppDelegate.m in Sources */,
+				A6D9151A1BBB77E400361D79 /* ThirdViewController.m in Sources */,
+				A62A681D1D05763800FFDDB6 /* FifthViewController.swift in Sources */,
+				A65B05111BBA8F5F00C204E9 /* SecondQuartzView.m in Sources */,
+				A62D35BE1BB10DDE001DE433 /* main.m in Sources */,
+				A65B050A1BBA8F1000C204E9 /* FirstViewController.m in Sources */,
+				A669AAC61D080DF40081443B /* DetailCircleProgressView.swift in Sources */,
+				A6AB48431BC660EC00223532 /* FourthViewController.m in Sources */,
+				A6801BE31D6C26250012D4A9 /* SevenView.m in Sources */,
+				A65B05091BBA8F1000C204E9 /* FirstQuartzView.m in Sources */,
+				A6AB48461BC6613900223532 /* FourthView.m in Sources */,
+				A62D35F21BB10E76001DE433 /* RootViewController.m in Sources */,
+				A6BE8FDB1D4614BD00F15AB3 /* SixthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35C81BB10DDE001DE433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62D35D11BB10DDE001DE433 /* LTQuartzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62D35D31BB10DDE001DE433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62D35DC1BB10DDE001DE433 /* LTQuartzUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A62D35CE1BB10DDE001DE433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A62D35B81BB10DDE001DE433 /* LTQuartz */;
+			targetProxy = A62D35CD1BB10DDE001DE433 /* PBXContainerItemProxy */;
+		};
+		A62D35D91BB10DDE001DE433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A62D35B81BB10DDE001DE433 /* LTQuartz */;
+			targetProxy = A62D35D81BB10DDE001DE433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A62D35C41BB10DDE001DE433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62D35C51BB10DDE001DE433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62D35DE1BB10DDE001DE433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A62D35DF1BB10DDE001DE433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62D35E11BB10DDE001DE433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LTQuartz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LTQuartz/Controller/Fifth/LTQuartz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A62D35E21BB10DDE001DE433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LTQuartz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LTQuartz/Controller/Fifth/LTQuartz-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A62D35E41BB10DDE001DE433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTQuartzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTQuartz.app/LTQuartz";
+			};
+			name = Debug;
+		};
+		A62D35E51BB10DDE001DE433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTQuartzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTQuartz.app/LTQuartz";
+			};
+			name = Release;
+		};
+		A62D35E71BB10DDE001DE433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTQuartzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTQuartz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A62D35E81BB10DDE001DE433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTQuartzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaoTao.LTQuartzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTQuartz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62D35B41BB10DDE001DE433 /* Build configuration list for PBXProject "LTQuartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D35DE1BB10DDE001DE433 /* Debug */,
+				A62D35DF1BB10DDE001DE433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62D35E01BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D35E11BB10DDE001DE433 /* Debug */,
+				A62D35E21BB10DDE001DE433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62D35E31BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D35E41BB10DDE001DE433 /* Debug */,
+				A62D35E51BB10DDE001DE433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62D35E61BB10DDE001DE433 /* Build configuration list for PBXNativeTarget "LTQuartzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D35E71BB10DDE001DE433 /* Debug */,
+				A62D35E81BB10DDE001DE433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62D35B11BB10DDE001DE433 /* Project object */;
+}
